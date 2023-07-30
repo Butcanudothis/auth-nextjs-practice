@@ -62,7 +62,9 @@ export default function SignupPage() {
           focus:border-gray-600"
           onClick={onSignup}
           >Signup here
-          </button>
+      </button>
+      <Link href="/login">Visit Login</Link>
+
     </div>
   );
 }
